@@ -1327,7 +1327,29 @@ textarea:focus {
   }
 
   h1 {
-    font-size: clamp(2.8rem, 17vw, 4.2rem);
+    font-size: clamp(2.45rem, 12vw, 3.35rem);
+    line-height: 1.02;
+  }
+
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 44px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.35rem, 10.5vw, 3rem);
+    line-height: 1;
+  }
+
+  .hero-content > p:not(.eyebrow) {
+    max-width: 31rem;
+    font-size: 0.97rem;
+    line-height: 1.46;
+  }
+
+  .hero-actions {
+    gap: 16px;
+    margin-top: 22px;
   }
 
   h2 {
@@ -1355,6 +1377,7 @@ textarea:focus {
   .services-hero {
     padding-top: 76px;
     padding-bottom: 28px;
+    text-align: left;
   }
 
   .services-hero-content h1 {
@@ -1383,11 +1406,18 @@ textarea:focus {
 
   .gallery-hero {
     padding-top: 76px;
+    text-align: left;
   }
 
   .gallery-hero h1 {
     font-size: clamp(2.25rem, 10vw, 3.05rem);
     line-height: 1.08;
+  }
+
+  .gallery-hero h1,
+  .gallery-hero p:not(.eyebrow) {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .gallery-section {
