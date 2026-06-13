@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Titan's General Service to request a free quote for renovations, repairs, painting, flooring, kitchens, bathrooms, basements, and design services."
+    />
+    <title>Contact | Titan General Construction Services</title>
+    <link rel="icon" type="image/png" href="assets/titan-logo.png" />
+    <link rel="apple-touch-icon" href="assets/titan-logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js?v=9"></script>
+  </head>
+  <body>
+    <header class="site-header inner-header is-scrolled" data-header>
+      <a class="brand" href="index.html#home" aria-label="Titan home">
+        <img class="brand-mark" src="assets/titan-logo.png" alt="" />
+        <span>
+          <strong>Titan</strong>
+          <small>Construction Services</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="index.html#process">Process</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+
+      <a class="header-cta" href="contact.html#quote-form">Get a Quote</a>
+    </header>
+
+    <main>
+      <section class="quote-hero">
+        <div>
+          <p class="eyebrow">Contact Titan</p>
+          <h1>Ready to price out your renovation?</h1>
+          <p>
+            Tell us what you want to build, repair, update, or transform. Titan will follow up with the next
+            step, whether that is a walkthrough, a scope discussion, or a free quote.
+          </p>
+        </div>
+        <aside class="quote-contact-card">
+          <span>Call or email</span>
+          <a href="tel:+16135550194">(613) 555-0194</a>
+          <a href="mailto:hello@buildwithtitan.com">hello@buildwithtitan.com</a>
+          <p>Serving Ottawa and surrounding areas.</p>
+        </aside>
+      </section>
+
+      <section class="quote-page-section">
+        <div class="quote-page-copy">
+          <p class="eyebrow">Get A Free Quote</p>
+          <h2>Share the basics. We will help clarify the scope.</h2>
+          <p>
+            The more detail you provide, the easier it is for Titan to understand your project needs, budget,
+            timeline, and next steps.
+          </p>
+          <div class="quote-steps">
+            <article>
+              <span>01</span>
+              <strong>Describe the project</strong>
+              <p>Tell us the room, service, goal, and any issues you want solved.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <strong>Schedule a walkthrough</strong>
+              <p>We review the space, conditions, timeline, and design direction.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <strong>Receive next steps</strong>
+              <p>You get a clear path for scope, pricing, approvals, and construction.</p>
+            </article>
+          </div>
+        </div>
+
+        <form class="contact-form quote-form" id="quote-form" data-contact-form>
+          <label>
+            Name
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            Phone
+            <input name="phone" type="tel" autocomplete="tel" />
+          </label>
+          <label>
+            Project Type
+            <select name="project" required>
+              <option value="">Select a service</option>
+              <option>Bathroom remodeling</option>
+              <option>Basement renovation</option>
+              <option>Flooring services</option>
+              <option>Kitchen remodelling</option>
+              <option>Design services</option>
+              <option>Condo renovation</option>
+              <option>Painting services</option>
+              <option>General repair or maintenance</option>
+            </select>
+          </label>
+          <label>
+            Preferred Timeline
+            <select name="timeline">
+              <option value="">Select a timeline</option>
+              <option>As soon as possible</option>
+              <option>Within 1-3 months</option>
+              <option>Within 3-6 months</option>
+              <option>Planning for later</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Tell us about the property, rooms involved, goals, budget range, and any must-haves."
+            ></textarea>
+          </label>
+          <button class="button primary" type="submit">Send Quote Request</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand footer-brand" href="index.html#home" aria-label="Titan home">
+          <img class="brand-mark" src="assets/titan-logo.png" alt="" />
+          <span>
+            <strong>Titan</strong>
+            <small>Construction Services</small>
+          </span>
+        </a>
+        <p>General construction services for residential and commercial properties.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="index.html#process">Process</a>
+        <a href="contact.html#quote-form">Get a Quote</a>
+      </div>
+    </footer>
+  </body>
+</html>
