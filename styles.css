@@ -1334,6 +1334,7 @@ textarea:focus {
   .hero {
     padding-top: 118px;
     padding-bottom: 44px;
+    min-height: min(660px, 78svh);
   }
 
   .hero h1 {
